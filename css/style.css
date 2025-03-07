@@ -1,3 +1,7 @@
+
+@import url('https://fonts.cdnfonts.com/css/manrope');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +20,16 @@ p {
 
 .light-purple {
   color: #d0ccff;
+}
+
+.mnrp{
+  font-family: 'Manrope', sans-serif;
+}
+
+.fopa{
+  color: #737092B2;
+  opacity: 70%;
+  font-size: 18px;
 }
 
 .border-light-purple {
@@ -41,6 +55,14 @@ p {
   padding-left: 27rem;
   padding-right: 2rem;
 }
+
+.banner .container .row{
+  margin-left: 15px;
+}
+
+/* .banner button{
+
+} */
 
 .topbar-isize {
   font-size: 0.9rem;
@@ -107,6 +129,7 @@ p {
 
 .banner1 h1 {
   font-size: 4em;
+  margin-bottom: 0;
 }
 
 .banner1 p {
@@ -166,16 +189,13 @@ p {
   padding-bottom: 4%;
 }
 
-/* .overlay{
-  transform: translate(-50%,-50%);
-} */
-
 .banner-button {
   color: #ffffff;
   background-color: #7166f5;
   border-radius: 10px;
-  padding: 15px;
+  padding: 15px 40px;
   border-style: none;
+  font-size: 15px;
 }
 
 .banner .container .row {
@@ -196,18 +216,35 @@ p {
 
 .three-cards {
   gap: 1rem;
+
+}
+
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.card-p2{
+  margin-bottom: 25px;
 }
 
 .secondpg-second-card {
   /* transform: scaleY(1.1); */
   position: relative;
   transform: scale(1.1);
-  width: 55%;
+  width: 65%;
   background-color: rgba(113, 102, 245);
   z-index: 4;
   border-radius: 20px;
   margin-bottom: -20px;
-  /* padding: 20px; */
+  padding: 20px;
+}
+
+.s2-pb{
+  padding-bottom: 12px;
 }
 
 .secondpg-second-card::before {
@@ -220,7 +257,7 @@ p {
   height: 100%;
   background: url("../Assets/Images/middle-card-c.png");
   opacity: 0.2;
-  object-fit: cover;
+  background-size: cover;
   border-radius: 20px;
   z-index: 0;
   /* padding: 20px; */
@@ -233,14 +270,14 @@ p {
 }
 
 .secondpg-third-card {
-  padding: 25px;
+  padding: 40px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: -20px;
 }
 
 .secondpg-first-card {
-  padding: 25px;
+  padding: 40px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-bottom: -20px;
@@ -395,7 +432,15 @@ li span {
   align-items: center;
   padding: 50px;
   border-radius: 10px;
-  background: url("../Assets/Images/Mask\ Group.png") right bottom no-repeat;
+  background: url("../Assets/Images/MaskGroup.png") right bottom no-repeat;
+}
+
+.services-card .card span{
+  padding-top: 5px;
+}
+
+.services-card .card p{
+  padding-top: 20px;
 }
 
 .services .container .row .col-sm-4 .card {
@@ -541,6 +586,7 @@ li span {
   background-image: url("../Assets/Images/testimonial-background.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  border-style: none;
   /* border-style: none; */
 }
 
@@ -768,13 +814,14 @@ input[type="range"]::-webkit-slider-thumb {
   width: 75%;
   background-color: #211f38;
   border-radius: 9px;
-  left: 13%;
+  left: 8%;
   margin-top: -20px;
   padding: 30px;
 }
 
 .footer-mid2 img {
   width: 60%;
+  padding-right: 5%;
   margin-top: -40px;
 }
 
